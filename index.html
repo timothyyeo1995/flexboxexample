@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+      font-family: 'Sono', sans-serif;
+    }
+
+    .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 2rem;
+    }
+
+    .recharge-plan {
+      flex-grow: 1;
+      max-width: 400px;
+      border-radius: 5px;
+      border-color: rgb(204,204,204);
+      border-style: solid;
+      border-width: 1px;
+      caret-color: transparent;
+    }
+
+    /* .recharge-plan:hover{
+      border-color: rgb(100, 192, 252);
+    } */
+
+    .plan-title{
+      padding: 5px;
+      background-color: rgb(239, 173, 89);
+      border-radius: 4px 0px 4px 0px;
+      display: inline-block;
+      color: white;
+    }
+
+    .plan-content{
+      padding: 20px;
+      text-align: center;
+    }
+
+    .plan-crystals{
+      margin-bottom: 10px;
+      color: rgb(151, 102, 102);
+    }
+
+    .plan-bonus{
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(151, 102, 102);
+    }
+
+    .bonusimg{
+      width: 20px;
+      height: 20px;
+      
+    }
+    .plan-button {
+      padding: 10px 30px 10px 30px;
+      background-color: rgb(100, 192, 252);
+      color: #fff;
+      border-radius: 5px;
+      font-size: 1rem;
+      border: none;
+    }
+
+    .plan-button:hover{
+      background-color: rgb(115, 203, 252);
+      cursor: pointer;
+    }
+
+    @media (max-width: 1000px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+    </style>
+</head>
+<body>
+    <div class="pricing-container">
+        <div class="recharge-plan">
+          <div class="plan-title">First Recharge</div>
+          <div class="plan-content">
+            <div class="plan-image"><img src="https://upload-static.hoyoverse.com/payment-center/2020/08/10/0f362595da2e37a7a8fde1bb120656d2_9059344119824868056.png" alt="genesiscrystals"></div>
+            <div class="plan-crystals">Genesis Crystals x 60</div>
+            <div class="plan-bonus">Bonus<img class="bonusimg"src="https://sdk.hoyoverse.com/upload/payment-center/2022/09/28/bd9f0229dd9b07a6a4f355560634e26e_3982721321318217935.png" alt="genesiscrystals">x 60</div>
+            <button class="plan-button">S$1.48 Purchase</a>
+          </div>
+        </div>
+        <div class="recharge-plan">
+            <div class="plan-title">First Recharge</div>
+            <div class="plan-content">
+              <div class="plan-image"><img src="https://upload-static.hoyoverse.com/payment-center/2020/08/10/830e247bb0cfffa5c74a04e79c0040f5_8113348980205194944.png" alt="genesiscrystals"></div>
+              <div class="plan-crystals">Genesis Crystals x 60</div>
+              <div class="plan-bonus">Bonus<img class="bonusimg"src="https://sdk.hoyoverse.com/upload/payment-center/2022/09/28/bd9f0229dd9b07a6a4f355560634e26e_3982721321318217935.png" alt="genesiscrystals">x 300</div>
+              <button class="plan-button">S$6.98 Purchase</a>
+            </div>
+          </div>
+          <div class="recharge-plan">
+            <div class="plan-title">First Recharge</div>
+            <div class="plan-content">
+              <div class="plan-image"><img src="https://upload-static.hoyoverse.com/payment-center/2020/08/10/dfefc92ce56e3b5615ef28d6b1119b8b_325227550361043934.png" alt="genesiscrystals"></div>
+              <div class="plan-crystals">Genesis Crystals x 60</div>
+              <div class="plan-bonus">Bonus<img class="bonusimg"src="https://sdk.hoyoverse.com/upload/payment-center/2022/09/28/bd9f0229dd9b07a6a4f355560634e26e_3982721321318217935.png" alt="genesiscrystals">x 980</div>
+              <button class="plan-button">S$21.98 Purchase</a>
+            </div>
+          </div>
+      </div>
+</body>
+</html>
